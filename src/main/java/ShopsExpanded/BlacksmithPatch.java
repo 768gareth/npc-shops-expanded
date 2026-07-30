@@ -41,6 +41,8 @@ public class BlacksmithPatch
       Mob.shop.addBuyingItem("emerald", new BuyingShopItem()).setPriceBasedOnHappiness(30, 20, 2);
       Mob.shop.addBuyingItem("topaz", new BuyingShopItem()).setPriceBasedOnHappiness(30, 20, 2);
       Mob.shop.addBuyingItem("glacialshard", new BuyingShopItem()).setPriceBasedOnHappiness(20, 12, 2).addKilledMobRequirement("piratecaptain");
+      Mob.shop.addBuyingItem("livingash", new BuyingShopItem()).setPriceBasedOnHappiness(30, 20, 2).addKilledMobRequirement("piratecaptain");
+      Mob.shop.addBuyingItem("phoenixfeather", new BuyingShopItem()).setPriceBasedOnHappiness(30, 20, 2).addKilledMobRequirement("piratecaptain");
       Mob.shop.addBuyingItem("amber", new BuyingShopItem()).setPriceBasedOnHappiness(25, 15, 2).addKilledMobRequirement("piratecaptain");
       Mob.shop.addBuyingItem("nightsteelbar", new BuyingShopItem()).setPriceBasedOnHappiness(45, 25, 2).addKilledMobRequirement("nightswarm");
       Mob.shop.addBuyingItem("spideritebar", new BuyingShopItem()).setPriceBasedOnHappiness(45, 25, 2).addKilledMobRequirement("spiderempress");
@@ -50,5 +52,7 @@ public class BlacksmithPatch
       Mob.shop.addBuyingItem("spidervenom", new BuyingShopItem()).setPriceBasedOnHappiness(35, 20, 2).addKilledMobRequirement("spiderempress");
       Mob.shop.addBuyingItem("omnicrystal", new BuyingShopItem()).setPriceBasedOnHappiness(35, 20, 2).addKilledMobRequirement("crystaldragon");
       Mob.shop.addBuyingItem("pearlescentdiamond", new BuyingShopItem()).setPriceBasedOnHappiness(40, 20, 2).addKilledMobRequirement("crystaldragon");
+      Mob.shop.addBuyingItem("fuelskull", new BuyingShopItem()).setPriceBasedOnHappiness(55, 45, 2).addKilledMobRequirement("crystaldragon");
+      Mob.shop.addBuyingItem("pristinegear", new BuyingShopItem()).setPriceBasedOnHappiness(25, 15, 2).addKilledMobRequirement("crystaldragon");
   }
 }

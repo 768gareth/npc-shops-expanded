@@ -23,6 +23,7 @@ public class ExoticMerchantPatch
   {
       ClearRegistry.Clear((GameRegistry<?>)Mob.shop.sellingShop);
 
+      Mob.shop.addSellingItem("prettyflower", new SellingShopItem()).setRandomPrice(600, 950);
       Mob.shop.addSellingItem("recipebook", new SellingShopItem()).setRandomPrice(500, 800);
       Mob.shop.addSellingItem("boxingglovegun", new SellingShopItem()).setRandomPrice(200, 300);
       Mob.shop.addSellingItem("snowlauncher", new SellingShopItem()).setRandomPrice(600, 700);

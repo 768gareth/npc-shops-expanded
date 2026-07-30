@@ -61,12 +61,14 @@ public class AlchemistPatch
       Mob.shop.addBuyingItem("rockfish", new BuyingShopItem()).setPriceBasedOnHappiness(25, 16, 4);
       Mob.shop.addBuyingItem("terrorfish", new BuyingShopItem()).setPriceBasedOnHappiness(25, 16, 4);
       Mob.shop.addBuyingItem("alchemyshard", new BuyingShopItem()).setPriceBasedOnHappiness(15, 8, 1).addKilledMobRequirement("fallenwizard");
-      Mob.shop.addBuyingItem("shadowessence", new BuyingShopItem()).setPriceBasedOnHappiness(25, 15, 2).addKilledMobRequirement("fallenwizard");
-      Mob.shop.addBuyingItem("cryoessence", new BuyingShopItem()).setPriceBasedOnHappiness(25, 15, 2).addKilledMobRequirement("fallenwizard");
-      Mob.shop.addBuyingItem("bioessence", new BuyingShopItem()).setPriceBasedOnHappiness(25, 15, 2).addKilledMobRequirement("fallenwizard");
-      Mob.shop.addBuyingItem("primordialessence", new BuyingShopItem()).setPriceBasedOnHappiness(25, 15, 2).addKilledMobRequirement("fallenwizard");
-      Mob.shop.addBuyingItem("slimeessence", new BuyingShopItem()).setPriceBasedOnHappiness(40, 20, 2).addKilledMobRequirement("fallenwizard");
-      Mob.shop.addBuyingItem("bloodessence", new BuyingShopItem()).setPriceBasedOnHappiness(40, 20, 2).addKilledMobRequirement("fallenwizard");
-      Mob.shop.addBuyingItem("spideressence", new BuyingShopItem()).setPriceBasedOnHappiness(40, 20, 2).addKilledMobRequirement("fallenwizard");
+      Mob.shop.addBuyingItem("shadowessence", new BuyingShopItem()).setPriceBasedOnHappiness(30, 20, 2).addKilledMobRequirement("fallenwizard");
+      Mob.shop.addBuyingItem("cryoessence", new BuyingShopItem()).setPriceBasedOnHappiness(30, 20, 2).addKilledMobRequirement("fallenwizard");
+      Mob.shop.addBuyingItem("bioessence", new BuyingShopItem()).setPriceBasedOnHappiness(30, 20, 2).addKilledMobRequirement("fallenwizard");
+      Mob.shop.addBuyingItem("primordialessence", new BuyingShopItem()).setPriceBasedOnHappiness(25, 20, 2).addKilledMobRequirement("fallenwizard");
+      Mob.shop.addBuyingItem("slimeessence", new BuyingShopItem()).setPriceBasedOnHappiness(40, 30, 2).addKilledMobRequirement("fallenwizard");
+      Mob.shop.addBuyingItem("bloodessence", new BuyingShopItem()).setPriceBasedOnHappiness(40, 30, 2).addKilledMobRequirement("fallenwizard");
+      Mob.shop.addBuyingItem("spideressence", new BuyingShopItem()).setPriceBasedOnHappiness(40, 30, 2).addKilledMobRequirement("fallenwizard");
+      Mob.shop.addBuyingItem("crystalessence", new BuyingShopItem()).setPriceBasedOnHappiness(50, 40, 2).addKilledMobRequirement("fallenwizard");
+      Mob.shop.addBuyingItem("radiatedessence", new BuyingShopItem()).setPriceBasedOnHappiness(50, 40, 2).addKilledMobRequirement("fallenwizard");
   }
 }

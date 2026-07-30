@@ -17,6 +17,7 @@ public class AnimalKeeperPatch
       ClearRegistry.Clear((GameRegistry<?>)Mob.shop.sellingShop);
     
       Mob.shop.addSellingItem("queenbee", new SellingShopItem()).setStaticPriceBasedOnHappiness(300, 400, 10);
+      Mob.shop.addSellingItem("apiary", new SellingShopItem()).setStaticPriceBasedOnHappiness(200, 300, 10).addKilledMobRequirement("evilsprotector");
       Mob.shop.addSellingItem("shears", new SellingShopItem()).setStaticPriceBasedOnHappiness(50, 100, 10);
       Mob.shop.addSellingItem("bucket", new SellingShopItem()).setStaticPriceBasedOnHappiness(50, 100, 10);
       Mob.shop.addSellingItem("rope", new SellingShopItem(10, 5)).setStaticPriceBasedOnHappiness(20, 40, 10);
